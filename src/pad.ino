@@ -7,7 +7,7 @@ bool playing = false;
 unsigned long timer = 0;
 unsigned long blinkMillis = 0;
 int blinkTime = 20;
-
+//
 void setupPad() {
   pinMode(LED_BUILTIN, OUTPUT);
   pinMode(pad1, INPUT);
